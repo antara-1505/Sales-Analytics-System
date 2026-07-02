@@ -45,6 +45,9 @@ df = (
     .withColumn("Price Each", col("Price Each").cast("double"))
 )
 
+# Remove repeated header rows
+df = df.filter(trim(col("Order ID")) != "Order ID")
+
 # Remove empty (not null) rows safely
 df = df.filter(
     (col("Order ID") != "") &
