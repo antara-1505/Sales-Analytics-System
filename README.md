@@ -6,6 +6,7 @@ This project implements an **end-to-end cloud-based ETL and analytics pipeline**
 
 The pipeline focuses on **data quality, scalability, and analytics readiness**, converting raw transactional data into a clean, trusted fact table suitable for BI and reporting.
 
+## [video demonstration ](https://youtu.be/qfkWtwcRjI0?si=dJVohddN3ZhphWyd)
 ---
 
 ## 🏗️ Architecture Overview
@@ -132,3 +133,4 @@ B.Tech in Biotechnology | Aspiring Data Engineer / Analyst
 ---
 
 ⭐ This project demonstrates practical experience in building scalable, cloud-based analytics systems suitable for enterprise use cases.
+
